@@ -33,6 +33,9 @@
   background: #FFEFAE;
 }
 
+
+
+
 .video-details {
     max-width: 100%; /* Adjust this value as needed */
     margin: 0 auto; /* Center the text container */
@@ -148,6 +151,70 @@
 /* line 98, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .theme-color {
   color: #670000;
+}
+
+.video-item {
+  margin-bottom: 30px;
+}
+
+.video-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse; /* Reverse the order of flex items */
+}
+
+.video-info {
+  margin-left: 20px; /* Adjust spacing between video and description */
+  flex: 1; /* Allow description to take up remaining space */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 10px; /* Add rounded borders */
+  background-color: #f2f2f2; /* Add background color */
+}
+
+.video-info h3 {
+  margin-bottom: 5px;
+}
+
+.video-info p {
+  margin-bottom: 0;
+  max-width: 250px; /* Limit the width of the description */
+}
+
+video {
+  max-width: 300px; /* Adjust the width of the videos */
+  width: 100%; /* Ensure videos scale properly */
+}
+
+
+
+
+.experience-title {
+  margin-left: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.education-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.education-duration {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #777;
+}
+
+.education-location {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #777;
 }
 
 /* line 50, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_variables.scss */
@@ -3739,21 +3806,21 @@ hr {
 .about-area {
   background: #ffff;
   position: relative;
-  margin-right: 100px;
+  margin-right: px;
   position: relative;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area {
-    margin-right: 50px;
+    margin-right: px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area {
-    margin-right: 50px;
+    margin-right: px;
   }
 }
 
@@ -4096,6 +4163,7 @@ hr {
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
 .gallery-area {
   background: #FFEFAE;
+  width: 100%;
 }
 
 /* line 4, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
