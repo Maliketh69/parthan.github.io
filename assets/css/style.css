@@ -33,6 +33,60 @@
   background: #FFEFAE;
 }
 
+.video-details {
+    max-width: 100%; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the text container */
+    text-align: center;
+    padding: 0 20px; /* Add padding to the text container */
+}
+
+.gallery-video video {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-video {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-content {
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.gallery-video:hover .overlay {
+  opacity: 0;
+}
+
+.gallery-video:hover video {
+  cursor: pointer;
+}
+
+
 /* line 41, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg2 {
   background: #670000;
